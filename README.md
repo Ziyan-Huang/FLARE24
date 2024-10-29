@@ -23,9 +23,9 @@ Only two files you need to focus on:
 
 ## 📊 Data
 
-- Dataset: FLARE24 Task1
-- Data Usage: 5000 partial labeled data (treated as fully labeled without any special handling for partial labels)
-- Preprocessing: Default nnUNet procedure without any modification
+- **Dataset**: FLARE24 Task1
+- **Data Usage**: 5000 partial labeled data (treated as fully labeled without any special handling for partial labels)
+- **Preprocessing**: Default nnUNet procedure without any modification
 
 ## 📊 Quantitative Results
 
