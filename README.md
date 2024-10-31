@@ -2,9 +2,9 @@
 
 ## 🔗 Key Links
 
-- **FLARE24 Website**: [Task1](https://www.codabench.org/competitions/2319/)
+- **FLARE24 Official Website**: [Task1](https://www.codabench.org/competitions/2319/)
 
-- **Docker Download**: [Baidu NetDisk](https://pan.baidu.com/s/1SbrBYHYYxjQZGpYQRPYAYA?pwd=yrjx)
+- **Docker Download**: [Baidu NetDisk](https://pan.baidu.com/s/1SbrBYHYYxjQZGpYQRPYAYA?pwd=yrjx) or [Google Drive](https://drive.google.com/file/d/1patISup4J6jAZrrkhugiWNBGNfT0co3C/view?usp=sharing)
 
   You only need to place all the `.nii.gz` files ready for inference in the `inputs` directory. Then, run the following commands to start inference:
   ```bash
@@ -13,7 +13,7 @@
     -v $PWD/inputs/:/workspace/inputs/ \
     -v $PWD/outputs/:/workspace/outputs/ \
     gmai:latest /bin/bash -c "sh predict.sh"
-- **Slides Download**: View our technical presentation and findings [Baidu NetDisk](https://pan.baidu.com/s/1odgg5nFoAqW516QyVb4rRg?pwd=povu)
+- **Slides Download**: View our technical presentation and findings [Baidu NetDisk](https://pan.baidu.com/s/1odgg5nFoAqW516QyVb4rRg?pwd=povu) or [Google Drive](https://drive.google.com/file/d/12RL0UXq4FNSGCfv-kVZxgW1EOwsHZUoC/view?usp=drive_link)
 
 # 🔍 A 5.6M Parameter U-Net for Efficient Whole-body Tumor Segmentation
 
