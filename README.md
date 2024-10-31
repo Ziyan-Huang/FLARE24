@@ -39,7 +39,7 @@ pip install -e .
 - **⚙️ Preprocessing**: Default nnUNet procedure
 
 Organize your labeled data in ``nnUNet_raw`` in the following structure:
-```json
+```
 Dataset024_FLARE24_Task1/
 ├── imagesTr/
 │   ├── coronacases_001_0000.nii.gz
@@ -49,7 +49,6 @@ Dataset024_FLARE24_Task1/
 │   ├── coronacases_001.nii.gz
 │   ├── ...
 └── dataset.json
-
 ```
 You can find the [dataset.json](./nnUNet_results/Dataset024_FLARE24_Task1/nnUNetTrainer_Epoch2000_Lr1e3__nnUNetPlans__3d_fullres_S4D2W32/dataset.json) file here
 
