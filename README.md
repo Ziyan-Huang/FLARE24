@@ -2,6 +2,8 @@
 
 ## 🔗 Key Links
 
+- **FLARE24 Website**: [Task1](https://www.codabench.org/competitions/2319/)
+
 - **Docker Download**: [Baidu NetDisk](https://pan.baidu.com/s/1SbrBYHYYxjQZGpYQRPYAYA?pwd=yrjx)
 
   You only need to place all the `.nii.gz` files ready for inference in the `inputs` directory. Then, run the following commands to start inference:
