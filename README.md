@@ -1,6 +1,21 @@
-# 🔍 A 5.6M Parameter U-Net for Efficient Whole-body Tumor Segmentation (For MICCAI FLARE2024 challenge Task1)
+# 🏆 We Won the Champion of MICCAI FLARE2024 Challenge Task1!
 
-## 🆚 Key Differences Between Our Method and nnUNetV2
+## 🔗 Key Links
+
+- **Docker Download**: [Baidu NetDisk](https://pan.baidu.com/s/1SbrBYHYYxjQZGpYQRPYAYA?pwd=yrjx)
+
+  You only need to place all the `.nii.gz` files ready for inference in the `inputs` directory. Then, run the following commands to start inference:
+  ```bash
+  docker load -i gmai.tar.gz
+  docker container run --gpus "device=all" --name gmai --rm \
+    -v $PWD/inputs/:/workspace/inputs/ \
+    -v $PWD/outputs/:/workspace/outputs/ \
+    gmai:latest /bin/bash -c "sh predict.sh"
+- Slides Download: View our technical presentation and findings [Baidu NetDisk](https://pan.baidu.com/s/1odgg5nFoAqW516QyVb4rRg?pwd=povu)
+
+# 🔍 A 5.6M Parameter U-Net for Efficient Whole-body Tumor Segmentation
+
+## 🆚 Key Differences Between Our Method and the default nnU-Net
 
 | Configuration | Our Method 🚀 | nnUNetV2 🗿 |
 |---------------|--------------|-------------|
