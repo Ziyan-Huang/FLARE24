@@ -14,6 +14,7 @@
     -v $PWD/outputs/:/workspace/outputs/ \
     gmai:latest /bin/bash -c "sh predict.sh"
 - **Slides Download**: View our technical presentation and findings [Baidu NetDisk](https://pan.baidu.com/s/1odgg5nFoAqW516QyVb4rRg?pwd=povu) or [Google Drive](https://drive.google.com/file/d/12RL0UXq4FNSGCfv-kVZxgW1EOwsHZUoC/view?usp=drive_link)
+- **中文介绍**：[知乎](https://zhuanlan.zhihu.com/p/8374029165) 
 
 # 🔍 A 5.6M Parameter U-Net for Efficient Whole-body Tumor Segmentation
 
