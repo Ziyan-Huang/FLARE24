@@ -4,7 +4,7 @@
 
 ## 🔗 FLARE25 Baseline Docker
 
-- **Docker Download**: [Baidu NetDisk](https://pan.baidu.com/s/1CMP-Lcln-kd9NKUEAJ9XOA?pwd=vn9j) or [Google Drive](Coming Soon)
+- **Docker Download**: [Baidu NetDisk](https://pan.baidu.com/s/1CMP-Lcln-kd9NKUEAJ9XOA?pwd=vn9j) or [Google Drive](https://drive.google.com/file/d/1SJj5QDg43ITEiu8TL8edgfi8evOzJzDr/view?usp=sharing)
 
   To use the FLARE25 baseline model:
   ```bash
