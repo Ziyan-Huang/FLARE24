@@ -1,3 +1,23 @@
+# 📢 FLARE25 Baseline Model Available!
+
+**We have retrained our winning method on the FLARE25 dataset as a baseline model. The model has been trained and made available as a Docker container.**
+
+## 🔗 FLARE25 Baseline Docker
+
+- **Docker Download**: [Baidu NetDisk](https://pan.baidu.com/s/1CMP-Lcln-kd9NKUEAJ9XOA?pwd=vn9j) or [Google Drive](Coming Soon)
+
+  To use the FLARE25 baseline model:
+  ```bash
+  docker image load < flare25_gmai.tar.gz
+  
+  docker container run --gpus "device=all" --name flare25_gmai --rm \
+    -v $PWD/inputs/:/workspace/inputs/ \
+    -v $PWD/outputs/:/workspace/outputs/ \
+    flare25_gmai:latest /bin/bash -c "sh predict.sh"
+  ```
+
+---
+
 # 🏆 We Won the Champion of MICCAI FLARE2024 Challenge Task1!
 
 ## 🔗 Key Links
