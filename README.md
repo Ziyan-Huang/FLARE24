@@ -1,3 +1,6 @@
+**Note:** Our model design principles are derived from **UNet-Benchmark** and its paper: [GitHub](https://github.com/uni-medical/UNet-Benchmark) · [Scientific Reports / Nature Portfolio](https://www.nature.com/articles/s41598-025-15617-1)
+
+
 # 📢 FLARE25 Baseline Model Available!
 
 **We have retrained our winning method on the FLARE25 dataset as a baseline model. The model has been trained and made available as a Docker container.**
